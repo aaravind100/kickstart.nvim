@@ -173,7 +173,7 @@ return {
   * The main purpose of kickstart is to serve as a teaching tool and a reference
     configuration that someone can easily use to `git clone` as a basis for their own.
     As you progress in learning Neovim and Lua, you might consider splitting `init.lua`
-    into smaller parts. A fork of kickstart that does this while maintaining the 
+    into smaller parts. A fork of kickstart that does this while maintaining the
     same functionality is available here:
     * [kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim)
   * Discussions on this topic can be found here:
@@ -200,14 +200,16 @@ the easiest way is to use choco:
 1. install [chocolatey](https://chocolatey.org/install)
 either follow the instructions on the page or use winget,
 run in cmd as **admin**:
+
 ```
 winget install --accept-source-agreements chocolatey.chocolatey
 ```
 
 2. install all requirements using choco, exit previous cmd and
 open a new one so that choco path is set, and run in cmd as **admin**:
+
 ```
 choco install -y neovim git ripgrep wget fd unzip gzip mingw make
 ```
 
-Then, continue with the [Install Kickstart](#Install-Kickstart) step.
+Then, continue with the [Install Kickstart](#install-kickstart) step.
